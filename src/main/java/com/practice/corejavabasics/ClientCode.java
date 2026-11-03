@@ -13,6 +13,7 @@ public class ClientCode {
 			DataInputStream dis = new DataInputStream(is);
 			String messege = dis.readUTF();
 			System.out.println(messege);
+			System.out.println("Indhu");
 		}
 
 	}
